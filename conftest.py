@@ -9,5 +9,5 @@ def env_vars():
 @pytest.fixture(scope="session")
 def get_books_service(env_vars):
     books = BooksService(books_url=env_vars['BOOKS_URL'], api_key=env_vars['API_KEY'])
-    return books
+    return booksdf
 

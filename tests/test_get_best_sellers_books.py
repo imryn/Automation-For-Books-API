@@ -43,4 +43,4 @@ def test_check_how_many_books_have_specific_list_name(get_books_service):
             best_sellers_with_list_name.append(item)
 
     assert len(best_sellers_with_list_name) == 8, f"have more books with requested list name. " \
-                                                     f"{best_sellers_books_response}"
+                                                     f"{best_sellers_books_response}"x

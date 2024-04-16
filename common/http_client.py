@@ -54,3 +54,4 @@ class HttpClient(Headers):
         response = requests.request(method='POST', url=url, json=json_request, data=data_request,
                                     headers=request_headers)
         return self.__get_api_details(response)
+

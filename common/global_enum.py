@@ -8,3 +8,4 @@ class GlobalEnum(Enum):
     OLD_YEAR = "2015"
     NEW_YEAR = "2017"
     NAME_TO_SEARCH = 'Hardcover'
+x
