@@ -3,7 +3,7 @@ this project developed by using python and pytest.
 I used "New York Times" api on books data.
 developed several automation tests
 
-##installation guide
+## installation guide
 
 - install python to your computer before download this repository.
 - after cloning the repo, create new file ".env" and add it to your downloaded project
@@ -14,7 +14,7 @@ developed several automation tests
 
 ``` https://developer.nytimes.com/get-started ```
 
-###libraries to install
+### libraries to install
 1. dotenv ```https://pypi.org/project/python-dotenv/```
 2. pytest
 3. requests
