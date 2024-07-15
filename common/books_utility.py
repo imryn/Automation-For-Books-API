@@ -1,7 +1,7 @@
 import pytest
 from services.books_service import BooksService
 
-class BooksUtility:
+class BooksUtility():
 
     def __init__(self, books_url, api_key):
         self.books_url = books_url
@@ -21,9 +21,8 @@ class BooksUtility:
                 raise Exception(f"do not get best selllers book list. {best_sellers_books}")
 
             best_sellers_books_response = best_sellers_books['response']['results']
-            print(best_sellers_books_response)
             return best_sellers_books_response
 
         except key as KeyError:
-            pirnt(f"return_best_sellers_books failed. look at {key} error")
+            print(f"return_best_sellers_books failed. look at {key} error")
 
