@@ -3,7 +3,7 @@ class Headers:
     @staticmethod
     def __get_header_content_type(json_request, data_request, params):
         if json_request is not None:
-            return {'Content-Type': "application,json"}
+            return {'Content-Type': "application/json"}
         elif data_request is not None:
             return {'Content-Type': "application/x-www-form-urlencoded"}
         elif params is not None:
